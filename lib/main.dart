@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: '04_flutter',
+      title: '03_flutter',
       home: new Scaffold(
         appBar: new AppBar(
-          title: Text('04_flutter'),
+          title: Text('03_flutter'),
         ),
         body: new Column(
           children: <Widget>[
