@@ -10,22 +10,22 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'homework_04_text',
+      title: '04_flutter',
       home: new Scaffold(
         appBar: new AppBar(
-          title: Text('homework_04_text'),
+          title: Text('04_flutter'),
         ),
         body: new Column(
           children: <Widget>[
             new Text(
-              'Hello World !',
+              'hello World !',
               style: new TextStyle(
                 color: Colors.lightBlueAccent,
                 fontSize: 20,
               ),
             ),
             new Text(
-              'Nice To Meet You !',
+              'Hello',
               style: new TextStyle(
                 color: Colors.lightGreen,
                 fontSize: 20,
@@ -33,29 +33,21 @@ class MyApp extends StatelessWidget {
               textScaleFactor: 1.5, // 放⼤50%
             ),
             new Text(
-              'Hi Hi Hi !',
+              'qwa!',
               style: new TextStyle(
-                color: Colors.yellowAccent,
+                color: Colors.lightGreen,
                 fontSize: 20,
               ),
               textAlign: TextAlign.end, // 做右对齐
             ),
             new Text(
-              'Ohhhhhh !',
+              'Hi',
               style: new TextStyle(
                 fontSize: 20,
-                color: Colors.pinkAccent,
+                color: Colors.yellowAccent,
               ),
               maxLines: 2, // 最⼤显⽰2⾏
             ),
-            new Text(
-              'Hahhhhhh !',
-              style: new TextStyle(
-                fontSize: 20,
-                color: Colors.tealAccent,
-              ),
-              overflow: TextOverflow.ellipsis, //⽔平⽅向超出屏幕显⽰...
-            )
           ],
         ), //垂直⽅向排列
       ),
