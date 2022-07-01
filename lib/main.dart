@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.lightGreen,
                 fontSize: 20,
               ),
-              textScaleFactor: 1.5, // 放⼤50%
+              textScaleFactor: 1.5,  // 放⼤50%
             ),
             new Text(
               'qwa!',
